@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div class="container">
+            <form method="post">
+                <h1>Login</h1>
+                <label class="labels">Email</label>
+                <input class="field" type="email" name="email" placeholder="Your email address">
+                <label class="labels">Password</label>
+                <input class="field" type="password" name="password" placeholder="Password">
+
+                <div style="margin-top: 10px;">
+                    <input class="checkbox-button" type="checkbox" name="remember" checked>
+                    <label class="small-labels" for="remember">Remember me</label>
+                </div>
+                <input id="signup-button" type="submit" value="Login">
+                <p id="login-link-container">Don't have an account? <a id="login-link" href="signup.html">Sign Up</a></p>
+            </form>
+        </div>
+    </body>
+</html>
